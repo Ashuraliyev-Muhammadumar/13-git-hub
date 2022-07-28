@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --main-size:300px;
+    --main-color: red ;
+}
+.box{
+    width: var( --main-size);
+    height: var( --main-size);
+    background-color: var(--main-color);
+}
+table{
+    /* border-collapse: collapse; jadvallar orasidagi boshliqni yoqotib berdi */
+    border: none;
+}
+th{
+    padding: 30px;
+}
